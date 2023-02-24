@@ -16,7 +16,7 @@ grand.sd   <- function(S, M, N) {sqrt(weighted.mean(S^2 + M^2, N) -
 setwd("R:/GitHub/ICD_mood/")
 
 #import data
-data <- read_csv("data.csv", col_types = cols(days = col_number(),
+data <- read_csv("data_forupload.csv", col_types = cols(days = col_number(),
                                               grant_timepoint = col_number(),
                                               percentage_with_condition = col_number(),
                                               N_with_condition = col_number(),
@@ -56,11 +56,6 @@ data <- read_csv("data.csv", col_types = cols(days = col_number(),
                                               variance_comparison = col_number(),
                                               range_ll_comparison = col_number(),
                                               range_ul_comparison = col_number(),
-                                              N_total_comparison2 = col_number(),
-                                              average_comparison2 = col_number(),
-                                              variance_comparison2 = col_number(),
-                                              range_ll_comparison2 = col_number(),
-                                              range_ul_comparison2 = col_number(),
                                               yi = col_number(),
                                               vi = col_number(),
                                               timepoint = col_number())) %>%

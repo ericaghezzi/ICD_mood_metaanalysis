@@ -1,0 +1,122 @@
+﻿Variable,Description
+author,Lead author
+year,Year of publication
+covidence_id,Covidence ID number
+sub_shock,Y if this row refers to shock subgroup data
+sub_gender,Y if this row refers to gender subgroup data
+sub_indication,Y if this row refers to indication subgroup data
+subgroup_level,"Subgroup level this row refers to (e.g. shock, no shock, female, male)"
+measure,Mood measure category this row refers to
+measure_short,"Shortened mood measure category (a = anxiety, d = depression, ad = anxiety or depression, p = ptsd)"
+pool,1 if these measures should be pooled together to create one output
+measure_details,Extra information on measure
+test_used,Test/assessment method used
+test_used_abbreviation,Abbreviation of test used (if applicable)
+test_subscale,Subscale of the test used (if applicable)
+data_type,"Data type (cat = categorical, cont = continuous, d = Cohen's d)"
+cat_measure,"Specify type of categorical measure (diagnosis = diagnosed mood disorder, symptom = cut-off on continuous scale)"
+test_cutoff,Cut-off/criteria (categorical measures only)
+symptom_category,Symptom category (what level of severity does the cut-off represent)
+cutoff_notes,Notes on the cut-off used
+clin_sig,1 if this cut-off represents clinically significant mood symptoms
+mild,1 if this cut-off represents mild mood symptoms only
+mild_plus,1 if this cut-off represents at least mild mood symptoms
+mod,1 if this cut-off represents moderate mood symptoms only
+mod_plus,1 if this cut-off represents at least moderate mood symptoms
+sev,1 if this cut-off represents severe mood symptoms only
+v_sev,1 if this cut-off represents very severe mood symptoms only
+pool_mod_plus,1 if this row should be pooled with other rows to get at least moderate mood symptoms
+comparison_group_yesno,yes if comparison group data is available for this row
+comparison_group_detail,Specify type of comparison group
+comparison_group,Category of comparison group
+study_timepoint,Study timepoint (refering to number of timepoints within that study)
+timepoint,"Timepoint classification 1 (1 = discharge (so long as attempted to make it for discharge), 2 = discharge - 5m, 3 = 6-12m, 4 = 12+m, 5 = unspecified)"
+timepoint2,"Timepoint classification 2 (1 = pre-ICD, 2 = 0-5m, 3 = 6-12m, 4= 12+, 5 = unspecified)"
+time_broad_numerical,Timepoint from ICD (numerical)
+time_broad_units,Units of timepoint
+time_descriptive,Timepoint from ICD (descriptive)
+time_average_type,Data type for average timepoint
+time_average,Average timepoint
+time_average_units,Units for average timepoint
+time_variance_type,Variance type for average timepoint
+time_variance,Variance for average timepoint
+time_variance_range_type,Data type: range
+time_variance_ll,Lower limit of timepoint range
+time_variance_ul,Upper limit of timepoint range
+range_units,Range units
+time_2,yes if two timepoint groups need to be pooled
+time_group1,Details of timepoint group1 (already entered)
+time_group1_N,N timepoint group 1
+time_group2,Details of 2nd timepoint group
+time_group2_N,N timepoint group 2
+time_average2,Average timepoint group 2
+time_variance2,Timepoint variance group 2
+time_variance_ll2,Lower limit of timepoint range group 2
+time_variance_ul2,Upper limit of timepoint range group 2
+time_group3,Details of 3rd timepoint group (if applicable)
+time_group3_N,N timepoint group 3
+time_average3,Average timepoint group 3
+time_variance3,Timepoint variance group 3
+time_variance_ll3,Lower limit of timepoint range group 3
+time_variance_ul3,Upper limit of timepoint range group 3
+categorical_notes,Notes for categorical data
+N_with_condition,N with condition (e.g. N with anxiety)
+N_without_condition,N withour condition (e.g. N without anxiety)
+percentage_with_condition,Percentage with condition (if reported as %)
+N_total,N total for this data point
+N_tot_notes,Notes on N
+average_type,Data type: average
+average,Average
+variance_type,Data type: variance
+variance,Variance
+range_type,Data type: range
+range_ll,Range lower limit
+range_ul,Range upper limit
+icd2,yes if need to pool continuous data from 2 ICD groups
+icd1_details,Details of ICD group1 (already entered)
+icd2_details,Details of 2nd ICD group
+N_total_icd2,N ICD2 group
+average_type_icd2,Data type: average group 2
+average_icd2,Average ICD group 2
+variance_type_icd2,Data type: variance group 2
+variance_icd2,Variance group 2
+variance_range_type_icd2,Data type: range group 2
+variance_range_ll_icd2,Range lower limit group 2
+variance_range_ul_icd2,Range upper limit group 2
+icd3,yes if need to pool continuous data from 3 ICD groups
+icd3_details,Details of ICD group 3
+N_total_icd3,N ICD group 3
+average_type_icd3,Data type: average group 3
+average_icd3,Average ICD group 3
+variance_type_icd3,Data type: variance group 3
+variance_icd3,Variance group 3
+variance_range_type_icd3,Data type: range group 3
+variance_range_ll_icd3,Range lower limit group 3
+variance_range_ul_icd3,Range upper limit group 3
+icd4,yes if need to pool continuous data from 4 ICD groups
+icd4_details,Details of ICD group 4
+N_total_icd4,N ICD group 4
+average_type_icd4,Data type: average group 4
+average_icd4,Average ICD group 4
+variance_type_icd4,Data type: variance group 4
+variance_icd4,Variance group 4
+variance_range_type_icd4,Data type: range group 4
+variance_range_ll_icd4,Range lower limit group 4
+variance_range_ul_icd4,Range upper limit group 4
+categorical_notes_comparison,Notes for comparison group categorical data
+N_with_condition_comparison,N with condition (comparison group)
+N_without_condition_comparison,N without condition (comparison group)
+percentage_with_condition_comparison,Percentage with condition (comparison group)
+N_total_comparison,N total for comparison group
+average_type_comparison,Data type: average
+average_comparison,Average (comparison group)
+variance_type_comparison,Data type: variance
+variance_comparison,Variance (comparison group)
+range_type_comparison,Data type: range
+range_ll_comparison,LL of range (comparison group)
+range_ul_comparison,UL of range (comparison group)
+cohen_d_comparison,Cohen's d (comparison group)
+group1_cohensd_N,group 1 (ICD) N
+group2_cohensd_N,group 2 (comparison) N
+higherscore_cohensd,Did group 1/2 have higher score
+p_cohens_d_comparison,p-value (if available)
